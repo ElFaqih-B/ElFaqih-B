@@ -9,73 +9,64 @@
     </filter>
   </defs>
 
-  <!-- Background -->
   <rect width="1200" height="430" rx="18" fill="#060606"/>
   <rect x="22" y="22" width="1156" height="386" rx="12" fill="url(#gridFade)" stroke="#3A3A3A" stroke-width="2" filter="url(#shadow)"/>
 
   <!-- Terminal title bar -->
-  <rect x="22" y="22" width="1156" height="52" rx="12" fill="#111111"/>
-  <circle cx="52" cy="48" r="6" fill="#FF5F56"/>
-  <circle cx="76" cy="48" r="6" fill="#FFBD2E"/>
-  <circle cx="100" cy="48" r="6" fill="#27C93F"/>
-  <text x="600" y="52" text-anchor="middle" fill="#8D8D8D"
-        font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="14">faqih@github: ~</text>
+  <rect x="22" y="22" width="1156" height="46" rx="12" fill="#111111"/>
+  <rect x="22" y="56" width="1156" height="12" fill="#111111"/>
+  <circle cx="48" cy="45" r="6" fill="#FF5F56"/>
+  <circle cx="70" cy="45" r="6" fill="#FFBD2E"/>
+  <circle cx="92" cy="45" r="6" fill="#27C93F"/>
+  <text x="600" y="50" text-anchor="middle" fill="#8D8D8D"
+        font-family="monospace" font-size="14">faqih@github: ~</text>
 
-  <!-- Left pane - whoami -->
-  <rect x="42" y="90" width="505" height="300" rx="8" fill="#080808" stroke="#262626"/>
-  
-  <!-- Command -->
-  <text x="64" y="124" fill="#6FFF8A" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="15">$ whoami</text>
+  <!-- Left pane -->
+  <rect x="42" y="86" width="505" height="296" rx="8" fill="#080808" stroke="#262626"/>
+  <text x="62" y="118" fill="#6FFF8A" font-family="monospace" font-size="16">$ neofetch --user faqih</text>
 
-  <!-- Name -->
-  <text x="64" y="154" fill="#FFFFFF" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="16">Faqih Al Bashori</text>
+  <text x="62" y="158" fill="#FFFFFF" font-family="monospace" font-size="17">███████╗ █████╗  ██████╗ ██╗██╗  ██╗</text>
+  <text x="62" y="182" fill="#FFFFFF" font-family="monospace" font-size="17">██╔════╝██╔══██╗██╔═══██╗██║██║  ██║</text>
+  <text x="62" y="206" fill="#FFFFFF" font-family="monospace" font-size="17">█████╗  ███████║██║   ██║██║███████║</text>
+  <text x="62" y="230" fill="#FFFFFF" font-family="monospace" font-size="17">██╔══╝  ██╔══██║██║▄▄ ██║██║██╔══██║</text>
+  <text x="62" y="254" fill="#FFFFFF" font-family="monospace" font-size="17">██║     ██║  ██║╚██████╔╝██║██║  ██║</text>
+  <text x="62" y="278" fill="#FFFFFF" font-family="monospace" font-size="17">╚═╝     ╚═╝  ╚═╝ ╚══▀▀═╝ ╚═╝╚═╝  ╚═╝</text>
 
-  <!-- Separator -->
-  <line x1="64" y1="174" x2="523" y2="174" stroke="#303030" stroke-width="1"/>
+  <line x1="62" y1="298" x2="525" y2="298" stroke="#303030"/>
 
-  <!-- Info rows from whoami -->
-  <text x="64" y="204" fill="#6FFF8A" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13">role</text>
-  <text x="136" y="204" fill="#D6D6D6" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13">: Fullstack Developer</text>
+  <text x="62" y="326" fill="#6FFF8A" font-family="monospace" font-size="14">role</text>
+  <text x="175" y="326" fill="#D6D6D6" font-family="monospace" font-size="14">Fullstack Developer</text>
 
-  <text x="64" y="228" fill="#6FFF8A" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13">focus</text>
-  <text x="136" y="228" fill="#D6D6D6" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13">: Backend-heavy Web Development</text>
+  <text x="62" y="350" fill="#6FFF8A" font-family="monospace" font-size="14">focus</text>
+  <text x="175" y="350" fill="#D6D6D6" font-family="monospace" font-size="14">Backend • Web • AI/ML</text>
 
-  <text x="64" y="252" fill="#6FFF8A" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13">backend</text>
-  <text x="136" y="252" fill="#D6D6D6" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13">: FastAPI / Flask / Jinja2</text>
+  <text x="62" y="374" fill="#6FFF8A" font-family="monospace" font-size="14">location</text>
+  <text x="175" y="374" fill="#D6D6D6" font-family="monospace" font-size="14">Indonesia</text>
 
-  <text x="64" y="276" fill="#6FFF8A" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13">frontend</text>
-  <text x="136" y="276" fill="#D6D6D6" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13">: Next.js / React</text>
+  <!-- Right pane -->
+  <rect x="568" y="86" width="610" height="296" rx="8" fill="#080808" stroke="#262626"/>
 
-  <text x="64" y="300" fill="#6FFF8A" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13">database</text>
-  <text x="136" y="300" fill="#D6D6D6" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13">: PostgreSQL / MySQL</text>
+  <text x="592" y="118" fill="#6FFF8A" font-family="monospace" font-size="16">$ cat ./stack.yml</text>
 
-  <text x="64" y="324" fill="#6FFF8A" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13">interest</text>
-  <text x="136" y="324" fill="#D6D6D6" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13">: AI / Machine Learning</text>
+  <text x="592" y="150" fill="#7A7A7A" font-family="monospace" font-size="14">backend:</text>
+  <text x="730" y="150" fill="#FFFFFF" font-family="monospace" font-size="14">FastAPI / Flask / Jinja2</text>
 
-  <text x="64" y="348" fill="#6FFF8A" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13">mindset</text>
-  <text x="136" y="348" fill="#D6D6D6" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13">: build • learn • ship</text>
+  <text x="592" y="174" fill="#7A7A7A" font-family="monospace" font-size="14">frontend:</text>
+  <text x="730" y="174" fill="#FFFFFF" font-family="monospace" font-size="14">Next.js / React</text>
 
-  <!-- Right pane - stack.yml -->
-  <rect x="568" y="90" width="610" height="300" rx="8" fill="#080808" stroke="#262626"/>
+  <text x="592" y="198" fill="#7A7A7A" font-family="monospace" font-size="14">database:</text>
+  <text x="730" y="198" fill="#FFFFFF" font-family="monospace" font-size="14">PostgreSQL / MySQL</text>
 
-  <!-- Command -->
-  <text x="592" y="124" fill="#6FFF8A" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="15">$ cat stack.yml</text>
+  <text x="592" y="222" fill="#7A7A7A" font-family="monospace" font-size="14">interest:</text>
+  <text x="730" y="222" fill="#FFFFFF" font-family="monospace" font-size="14">AI / ML / Intelligent Systems</text>
 
-  <!-- Stack sections -->
-  <text x="592" y="158" fill="#6FFF8A" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="14">### Backend</text>
-  <text x="592" y="182" fill="#D6D6D6" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13">Python · FastAPI · Flask · Jinja2</text>
+  <line x1="592" y1="244" x2="1150" y2="244" stroke="#303030"/>
 
-  <text x="592" y="210" fill="#6FFF8A" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="14">### Frontend</text>
-  <text x="592" y="234" fill="#D6D6D6" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13">Next.js · React · Tailwind CSS</text>
+  <text x="592" y="272" fill="#6FFF8A" font-family="monospace" font-size="16">$ ./build --something-useful</text>
+  <text x="592" y="298" fill="#8D8D8D" font-family="monospace" font-size="14">→ designing APIs</text>
+  <text x="592" y="321" fill="#8D8D8D" font-family="monospace" font-size="14">→ building web systems</text>
+  <text x="592" y="344" fill="#8D8D8D" font-family="monospace" font-size="14">→ experimenting with AI/ML</text>
 
-  <text x="592" y="262" fill="#6FFF8A" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="14">### Database</text>
-  <text x="592" y="286" fill="#D6D6D6" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13">PostgreSQL · MySQL</text>
-
-  <text x="592" y="314" fill="#6FFF8A" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="14">### AI / ML</text>
-  <text x="592" y="338" fill="#D6D6D6" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13">Machine Learning · Data Analysis · Intelligent Systems</text>
-
-  <!-- Cursor -->
-  <rect x="920" y="328" width="8" height="14" fill="#6FFF8A">
-    <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/>
-  </rect>
+  <text x="592" y="371" fill="#6FFF8A" font-family="monospace" font-size="14">$ echo "build • learn • ship"</text>
+  <rect x="902" y="360" width="9" height="16" fill="#6FFF8A"/>
 </svg>
