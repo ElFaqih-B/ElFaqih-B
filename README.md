@@ -2,94 +2,80 @@
 
 <img src="./assets/terminal-banner.svg" alt="Faqih terminal banner" width="100%" />
 
-# FAQIH AL BASHORI
+<br>
 
-### Fullstack Developer · Backend Engineer · AI/ML Enthusiast
-
-Building web applications, backend systems, and practical software.
-
-<p>
-  <a href="https://github.com/ElFaqih-B">
-    <img src="https://img.shields.io/badge/GitHub-ElFaqih--B-111111?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-  </a>
-</p>
+<a href="https://github.com/ElFaqih-B">
+  <img src="https://img.shields.io/badge/github-ElFaqih--B-161b22?style=flat-square&logo=github&logoColor=white" alt="GitHub">
+</a>
+<a href="https://github.com/ElFaqih-B?tab=repositories">
+  <img src="https://img.shields.io/badge/repos-explore-161b22?style=flat-square&logo=git&logoColor=white" alt="Repositories">
+</a>
 
 </div>
 
----
+## `$ whoami`
 
-## `> whoami`
+> **Faqih Al Bashori** — Fullstack Developer focused on building useful web systems, backend services, and exploring AI/ML.
 
-```bash
-$ whoami
-faqih
-
-$ cat profile.txt
-Fullstack Developer
-Backend       : FastAPI / Flask / Jinja2
-Frontend      : Next.js
-Database      : PostgreSQL / MySQL
-Interest      : AI / Machine Learning
+```text
+backend   → FastAPI · Flask · Jinja2
+frontend  → Next.js · React
+database  → PostgreSQL · MySQL
+interest  → AI · Machine Learning · Intelligent Systems
 ```
 
-I build applications end-to-end, with a strong interest in **backend engineering, web systems, and AI/ML**.
-
----
-
-## `> stack`
+## `$ ls ~/toolbox`
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,fastapi,flask,nextjs,react,tailwind,postgres,mysql" alt="Tech stack">
+  <img src="https://skillicons.dev/icons?i=python,fastapi,flask,nextjs,react,tailwind,postgres,mysql" alt="Python FastAPI Flask Next.js React Tailwind PostgreSQL MySQL">
 </p>
 
-`Python` · `FastAPI` · `Flask` · `Jinja2` · `Next.js` · `PostgreSQL` · `MySQL`
+## `$ ./projects`
 
----
+<table>
+<tr>
+<td width="33%" valign="top">
 
-## `> featured`
+### My Finance
+Personal finance system for transaction processing and financial tracking.
 
-**My Finance** — Personal finance system  
-`FastAPI` · `PostgreSQL` · `React Native`
+`FastAPI` `PostgreSQL` `React Native`
 
-**Kos Omah Subardiman** — Boarding-house management platform  
-`Next.js` · `FastAPI` · `MySQL`
+</td>
+<td width="33%" valign="top">
 
-**Intensive Portal** — Academic management platform  
-`Laravel` · `React` · `PostgreSQL`
+### Kos Omah
+Fullstack boarding-house management platform with an admin backend.
 
----
+`Next.js` `FastAPI` `MySQL`
 
-## `> currently_learning`
+</td>
+<td width="33%" valign="top">
+
+### Intensive Portal
+Academic and organizational management system.
+
+`Laravel` `React` `PostgreSQL`
+
+</td>
+</tr>
+</table>
+
+## `$ cat now.txt`
 
 ```text
-Backend Architecture
-API Design
-Database Engineering
-AI / Machine Learning
-Intelligent Systems
+building      → fullstack systems
+learning      → backend architecture + AI/ML
+experimenting → automation + intelligent applications
 ```
-
----
-
-## `> github`
-
-```text
-$ git status
-
-On branch main
-working tree: clean
-
-$ echo "currently building..."
-currently building.
-
-$ echo "AI/ML loading..."
-AI/ML loading...
-
----
 
 <div align="center">
 
-```text
+`build` → `break` → `learn` → `improve`
+
+<br><br>
+
+```bash
 $ echo "build useful things."
 build useful things.
 ```
