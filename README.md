@@ -71,15 +71,19 @@ Intelligent Systems
 
 ---
 
-## `> github --stats`
+## `> github`
 
-<div align="center">
+```text
+$ git status
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=ElFaqih-B&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" alt="GitHub stats">
+On branch main
+working tree: clean
 
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ElFaqih-B&layout=compact&hide_border=true&theme=transparent" alt="Top languages">
+$ echo "currently building..."
+currently building.
 
-</div>
+$ echo "AI/ML loading..."
+AI/ML loading...
 
 ---
 
