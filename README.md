@@ -27,7 +27,7 @@ interest  → AI · Machine Learning · Intelligent Systems
 ## `$ ls ~/toolbox`
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,fastapi,flask,nextjs,react,tailwind,postgres,mysql" alt="Python FastAPI Flask Next.js React Tailwind PostgreSQL MySQL">
+  <img src="https://skillicons.dev/icons?i=python,fastapi,flask,nextjs,react,tailwind,postgres,mysql,laravel" alt="Python FastAPI Flask Next.js React Tailwind PostgreSQL MySQL">
 </p>
 
 ## `$ ./projects`
